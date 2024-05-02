@@ -14,7 +14,7 @@ def embedchain_bot(db_path, api_key):
 
 st.title("Chat with PDF")
 
-openai_access_token = "sk-proj-M9fhp6zhxdUXCFrg0P6XT3BlbkFJGAuKmNshtQzOBfShjzhL"
+openai_access_token = ""
 
 if openai_access_token:
     db_path = tempfile.mkdtemp()
